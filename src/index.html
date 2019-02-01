@@ -11,7 +11,7 @@
 
 <body>
     <h1 class="this">Daily Journal</h1>
-    <form action="" class="journalForm">
+  
         <fieldset class = "journalForm__journalField">
             <label for="journalDate">Date of Entry</label>
             <input type="date" name="journalDate" id="journalDate"></input:date>
@@ -35,9 +35,15 @@
                     <option value="crazy">Crazy</option>
                   </select>
         </fieldset>
-
-        <input type="submit" value="Record journal entry">
-    </form>
+<button id ="recordButton">submit</button>
+<!-- <input type="submit" id ="recordButton" value="Record journal entry">-->
+   <section class="completedEntries"></section>
+   
+  <script src="scripts/profanity.js"></script>
+    <script src="/scripts/data.js"></script>
+    <script src="/scripts/entriesDOM.js"></script>
+    <script src="/scripts/entryComponent.js"></script>
+    <script src="/scripts/journal.js"></script>
 </body>
 
 </html>
