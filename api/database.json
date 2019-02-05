@@ -5,455 +5,56 @@
       "concept": "Array methods",
       "date": "01/15/201",
       "entry": "We learned about array methods, but only forEach made sense",
-      "mood": "Ok"
+      "mood": "sad"
     },
     {
       "id": 2,
       "concept": "Dom elements",
       "date": "01/17/2019",
       "entry": "We learned how to use dom elements to dynamically add elements to html",
-      "mood": "Ok"
+      "mood": "excited"
     },
     {
       "id": 3,
       "concept": "json",
       "date": "01/19/2019",
       "entry": "We learned how to use json objects liek the one currently storing this info",
-      "mood": "Ok"
+      "mood": "sad"
     },
     {
       "id": 4,
       "concept": "promises",
       "date": "01/21/2019",
       "entry": "We learned about promises which allow use to store objects in json through javascript",
-      "mood": "Ok"
+      "mood": "crazy"
     },
     {
-      "concept": "kkk",
+      "concept": "dddd",
       "date": "",
-      "entry": "kkk",
-      "mood": "sad",
+      "entry": "ddd",
+      "mood": "crazy",
       "id": 5
     },
     {
-      "concept": "wwww",
+      "concept": "axaxaxa",
       "date": "",
-      "entry": "wwww",
+      "entry": "axaxaxaa",
       "mood": "sad",
       "id": 6
     },
     {
-      "concept": "ass",
+      "concept": "axaxaxa",
       "date": "",
-      "entry": "",
+      "entry": "axaxaxaa",
       "mood": "sad",
       "id": 7
     },
     {
-      "concept": "ass",
+      "concept": "axaxaxa",
       "date": "",
-      "entry": "",
+      "entry": "axaxaxaa",
       "mood": "sad",
       "id": 8
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 9
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 10
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 11
-    },
-    {
-      "concept": "",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 12
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 13
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 14
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 15
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 16
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 17
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 18
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 19
-    },
-    {
-      "concept": "fuck",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 20
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 21
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 22
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 23
-    },
-    {
-      "concept": "",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 24
-    },
-    {
-      "concept": "",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 25
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 26
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 27
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 28
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 29
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 30
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 31
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 32
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 33
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 34
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 35
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 36
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 37
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 38
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 39
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 40
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "",
-      "mood": "sad",
-      "id": 41
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 42
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 43
-    },
-    {
-      "concept": "hi",
-      "date": "",
-      "entry": "hi",
-      "mood": "sad",
-      "id": 44
-    },
-    {
-      "concept": "hi",
-      "date": "",
-      "entry": "hi",
-      "mood": "sad",
-      "id": 45
-    },
-    {
-      "concept": "hi",
-      "date": "",
-      "entry": "hi",
-      "mood": "sad",
-      "id": 46
-    },
-    {
-      "concept": "hi",
-      "date": "",
-      "entry": "hi",
-      "mood": "sad",
-      "id": 47
-    },
-    {
-      "concept": "h",
-      "date": "",
-      "entry": "h",
-      "mood": "sad",
-      "id": 48
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 49
-    },
-    {
-      "concept": "fuck",
-      "date": "",
-      "entry": "fuck",
-      "mood": "sad",
-      "id": 50
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 51
-    },
-    {
-      "concept": "hi",
-      "date": "",
-      "entry": "hi",
-      "mood": "sad",
-      "id": 52
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 53
-    },
-    {
-      "concept": "sd",
-      "date": "",
-      "entry": "s",
-      "mood": "sad",
-      "id": 54
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 55
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 56
-    },
-    {
-      "concept": "s",
-      "date": "",
-      "entry": "s",
-      "mood": "sad",
-      "id": 57
-    },
-    {
-      "concept": "sss",
-      "date": "",
-      "entry": "sss",
-      "mood": "sad",
-      "id": 58
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 59
-    },
-    {
-      "concept": "ass",
-      "date": "",
-      "entry": "as",
-      "mood": "sad",
-      "id": 60
-    },
-    {
-      "concept": "s",
-      "date": "",
-      "entry": "s",
-      "mood": "sad",
-      "id": 61
-    },
-    {
-      "concept": "a",
-      "date": "",
-      "entry": "a",
-      "mood": "sad",
-      "id": 62
-    },
-    {
-      "concept": "dsds",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 63
-    },
-    {
-      "concept": "dsds",
-      "date": "",
-      "entry": "ass",
-      "mood": "sad",
-      "id": 64
-    },
-    {
-      "concept": "sds",
-      "date": "",
-      "entry": "ssds",
-      "mood": "sad",
-      "id": 65
     }
   ]
 }

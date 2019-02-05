@@ -14,6 +14,6 @@ const journalEntry = {
 
         //change this to push to json
         API.postJournalEntry(newEntry);
-        document.querySelector(".completedEntries").innerHTML += makeJournlEntryHtml(newEntry)
+        updateJournalEntryData();
     }
 }

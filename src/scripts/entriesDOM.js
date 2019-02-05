@@ -1,7 +1,9 @@
 //One object that has a method rendering the components to the DOM
-function renderJournalEntries(parsedEntries){
-    parsedEntries.forEach(entry => {
-        document.querySelector(".completedEntries").innerHTML +=  makeJournlEntryHtml(entry);
+function renderJournalEntries(cachedEntries) {
+    domTarget = document.querySelector(".completedEntries")
+    domTarget.innerHTML = "";
+    cachedEntries.forEach(entry => {
+        domTarget.innerHTML += makeJournlEntryHtml(entry);
     });
 }
 
@@ -14,4 +16,14 @@ const makeJournlEntryHtml = (entry) => {
 <p>${entry.mood}</p>
 </section>
 `
+}
+
+const getSpecificMoods = (mood) => {
+
+    filterByMoodArrray = cachedEntries.filter(entry => {
+        if (entry.mood === mood) {
+            return entry
+        }
+    })
+    renderJournalEntries(filterByMoodArrray)
 }
