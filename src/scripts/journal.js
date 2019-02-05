@@ -2,13 +2,7 @@
 //have duplicated code and will probablly improve readabilty.
 
 //todo i can refactor some code out of here now after making the cahced array. specifically the updatejournalentryfunction
-let cachedEntries = []
-const updateJournalEntryData = () => {
-    API.getJournalEntries().then(parsedEntries => {
-        cachedEntries = parsedEntries
-        return cachedEntries
-    }).then(cachedEntries => renderJournalEntries(cachedEntries));
-}
+
 updateJournalEntryData();
 
 document.querySelector("#moodRadioButtons").addEventListener("click", function () {
@@ -31,6 +25,25 @@ document.querySelector("#recordButton").addEventListener("click", function () {
 })
 
 
+const searchInput = document.querySelector("#searchEntryTextbox")
+
+document.querySelector("#searchJournals").addEventListener('click', event => {
+
+    const searchTerm = searchInput.value;
+
+    filteredJournalEntries = cachedEntries.filter(entry => {
+        for (const entryValues of Object.values(entry)) {
+
+            if ((typeof entryValues) === "string") {
+                if (entryValues.includes(searchTerm)) {
+                    return entry;
+                }
+            }
+        }
+    })
+    renderJournalEntries(filteredJournalEntries)
+
+})
 
 
 

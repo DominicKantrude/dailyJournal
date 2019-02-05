@@ -1,4 +1,6 @@
 
+let cachedEntries = []
+
 const journalEntry = {
     concept: "",
     date: "",
@@ -13,7 +15,26 @@ const journalEntry = {
         newEntry.mood = document.getElementById("moods").value;
 
         //change this to push to json
-        API.postJournalEntry(newEntry);
-        updateJournalEntryData();
+        API.postJournalEntry(newEntry).then(updateJournalEntryData());
+       
     }
 }
+
+const updateJournalEntryData = () => {
+    API.getJournalEntries().then(parsedEntries => {
+        cachedEntries = parsedEntries
+        return cachedEntries
+    }).then(cachedEntries => renderJournalEntries(cachedEntries));
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -6,7 +6,7 @@ const API = {
 
     postJournalEntry(newEntry) {
        
-        fetch("http://localhost:3000/entries", {
+        return fetch("http://localhost:3000/entries", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

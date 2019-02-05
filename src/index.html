@@ -11,46 +11,52 @@
 
 <body>
     <h1 class="this">Daily Journal</h1>
-  
-        <fieldset class = "journalForm__journalField">
-            <label for="journalDate">Date of Entry</label>
-            <input type="date" name="journalDate" id="journalDate"></input:date>
-        </fieldset>
-        
-        <fieldset class="journalForm__journalField">
-            <label for="conceptsCovered">Concepts Covered</label>
-            <input type="text" name="conceptsCovered" id="conceptsCovered"></fieldset></input>
-        </fieldset>
 
-        <fieldset class="journalForm__journalField">
-            <label for="journalEntry">Journal Entry</label>
-            <textarea name="journalEntry" id="journalEntry" rows="4" cols="30"></textarea></fieldset></input>
+    <fieldset class="journalForm__journalField">
+        <label for="journalDate">Date of Entry</label>
+        <input type="date" name="journalDate" id="journalDate"></input:date>
+    </fieldset>
+
+    <fieldset class="journalForm__journalField">
+        <label for="conceptsCovered">Concepts Covered</label>
+        <input type="text" name="conceptsCovered" id="conceptsCovered"></fieldset></input>
+    </fieldset>
+
+    <fieldset class="journalForm__journalField">
+        <label for="journalEntry">Journal Entry</label>
+        <textarea name="journalEntry" id="journalEntry" rows="4" cols="30"></textarea></fieldset></input>
+    </fieldset>
+    <fieldset class="journalForm__journalField">
+        <label for="moodOfDay">Mood of the day</label>
+        <select name="cars" name="moods" id="moods">
+            <option value="sad">Sad</option>
+            <option value="happy">Happy</option>
+            <option value="excited">Excited</option>
+            <option value="crazy">Crazy</option>
+        </select>
+    </fieldset>
+    <button id="recordButton">submit</button>
+    <section id="searchSection">
+        <fieldset id="moodRadioButtons">
+            <legend>
+                <label>sad</label><input name="mood" type="radio" value="sad"></input>
+                <label>happy</label><input name="mood" type="radio" value="happy"></input>
+                <label>excited</label><input name="mood" type="radio" value="excited"></input>
+                <label>crazy</label><input name="mood" type="radio" value="crazy"></input>
+            </legend>
         </fieldset>
-        <fieldset class="journalForm__journalField">
-            <label for="moodOfDay">Mood of the day</label>
-            <select name="cars" name="moods" id="moods">
-                    <option value="sad">Sad</option>
-                    <option value="happy">Happy</option>
-                    <option value="excited">Excited</option>
-                    <option value="crazy">Crazy</option>
-                  </select>
-        </fieldset>
-<button id ="recordButton">submit</button>
-
-<fieldset id="moodRadioButtons">
-    <legend>
-        <label>sad</label><input name="mood" type="radio" value="sad"></input>
-        <label>happy</label><input name="mood" type="radio" value="happy"></input>
-        <label>excited</label><input name="mood" type="radio" value="excited"></input>
-        <label>crazy</label><input name="mood" type="radio" value="crazy"></input>
-    </legend>
-</fieldset>
+        <section id="searchEntriesSection">
+            <label>Search Journal Entries</label>
+            <input id="searchEntryTextbox" type="text"></input>
+            <button id="searchJournals">Search</button>
+        </section>
+    </section>
 
 
- 
-   <section class="completedEntries"></section>
-   
-  <script src="scripts/profanity.js"></script>
+
+    <section class="completedEntries"></section>
+
+    <script src="scripts/profanity.js"></script>
     <script src="/scripts/data.js"></script>
     <script src="/scripts/entriesDOM.js"></script>
     <script src="/scripts/entryComponent.js"></script>
